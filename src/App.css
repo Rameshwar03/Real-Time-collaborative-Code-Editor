@@ -1,0 +1,211 @@
+/* common color */
+
+body {
+  height: 100vh;
+}
+.colorWhite {
+  color: #f8f8f8;
+}
+
+.homePage {
+  background: "#23262a";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.form {
+  background-color: #23262a;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+.HomePageLogo {
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  background-color: #eee;
+  font-size: 12px;
+  font-weight: bold;
+}
+.createnewBtn {
+  color: #4aed88;
+  list-style: none;
+  text-decoration: none;
+  border-bottom: 1px solid #4aed88;
+  transition: all 0.3s ease-in-out;
+}
+
+.createnewBtn:hover {
+  color: #2b28;
+  border-color: #2b28;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  border-radius: 2px;
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn {
+  width: 100px;
+  align-self: flex-end;
+  background-color: #4aed88;
+}
+
+.joinBtn:hover,
+.copyBtn:hover {
+  background-color: #2b28;
+}
+
+.createInfo {
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.main-label {
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+}
+
+footer a {
+  color: #4aed88;
+}
+/* Editor Page Design */
+.editorWrap {
+  display: grid;
+  grid-template-columns: 190px 1fr;
+  height: 100vh;
+  position: relative;
+}
+
+.logo {
+  border-bottom: 1px solid #fff;
+  padding-bottom: 10px;
+}
+.EditorPageLogo {
+  width: 140px;
+  height: 60px;
+  margin-bottom: 4px;
+}
+
+.sidebar {
+  background-color: #23262a;
+  padding: 16px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner {
+  flex: 1;
+}
+
+.clientList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.editor {
+  background-color: #23262a;
+}
+
+.copyBtn {
+  background-color: #4aed88;
+}
+.copyBtn:hover {
+  background-color: #2b28;
+}
+
+.leaveBtn {
+  margin-top: 10px;
+  background-color: #ff3333;
+  color: #f8f8f8;
+}
+.leaveBtn:hover {
+  background-color: #ff4444;
+}
+
+.outputHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* client.js */
+.client {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.userName {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+/* editor.js */
+.CodeMirror {
+  min-height: calc(100vh - 84px);
+  font-size: 14px;
+  line-height: 1.1;
+}
+
+.css-1jy569b-MuiFormLabel-root-MuiInputLabel-root {
+  display: none !important;
+}
+
+.css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root {
+  background-color: #f8f8f8 !important;
+  border: none !important;
+  border-radius: 0px !important;
+  outline: 0 !important;
+}
+
+.MuiAutocomplete-root fieldset:hover {
+  border-color: #2196f3 !important;
+}
+
+.output {
+  height: 272px;
+  padding-left: 4px;
+}
+
+.btnRun {
+  width: 120px;
+  height: 40px;
+  font-size: 10px;
+  background-color: #4aed88;
+}
+
+.languageText {
+  background-color: #f7f7f7;
+}
